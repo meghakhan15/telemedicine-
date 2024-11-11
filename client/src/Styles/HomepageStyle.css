@@ -1,0 +1,185 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Homepage Container */
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* App Name */
+  .app-name {
+    color: black;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 20px 0;
+    background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/SAKGwKC/medical-background-with-loop_n26ve-_yg_thumbnail-1080_05.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    min-height: 50vh;
+  }
+  
+  .hero-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4d4d;
+  }
+  
+  .btn-secondary {
+    background-color: #34d399;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #22c55e;
+  }
+  
+  /* Features Section */
+  .features-section {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .features-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #4facfe;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Role Selection Popup */
+  .role-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .role-popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    width: 90%;
+  }
+  
+  .role-popup-content h3 {
+    margin-bottom: 20px;
+  }
+  
+  .role-popup-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .role-popup-content button:nth-child(2) {
+    background-color: #ff6b6b;
+  }
+  
+  .role-popup-content button:nth-child(3) {
+    background-color: #34d399;
+  }
+  
+  .role-popup-content button:nth-child(4) {
+    background-color: #6b6bff;
+  }
+  
+  .close-popup {
+    background-color: #666;
+    color: white;
+  }
+  

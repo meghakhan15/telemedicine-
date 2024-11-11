@@ -1,0 +1,92 @@
+/* DashboardStyle.css */
+
+/* General Layout */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7fc;
+    min-height: 100vh;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    width: 100%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Dashboard Card (for each section like appointments, doctors, etc.) */
+  .dashboard-card {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .dashboard-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Flexbox for layout of dashboard sections */
+  .dashboard-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .dashboard-section {
+    width: 100%;
+    max-width: 30%;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-section {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Button Styles */
+  .dashboard-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  .dashboard-footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+  }
+  

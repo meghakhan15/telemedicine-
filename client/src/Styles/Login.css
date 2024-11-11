@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f8fb; /* Light background color */
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .login-form .ant-form-item-label {
+    font-weight: 600;
+    color: #4facfe;
+  }
+  
+  .login-form .ant-input, 
+  .login-form .ant-input-password {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .login-form .ant-btn {
+    background-color: #34d399;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form .ant-btn:hover {
+    background-color: #22c55e;
+  }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-footer a {
+    color: #4facfe;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-footer p {
+    color: #666;
+  }
+  
